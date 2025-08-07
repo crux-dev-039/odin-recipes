@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(224, 231, 255);
+}
+
+h1 {
+    color: rgb(19, 19, 145);
+}
+
+h1.bigger_font {
+    font-size: 48px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(185, 23, 185);
+    font-size: 24px;
+}
+
+a:hover {
+    color: rgb(20, 48, 139);
+    text-decoration: underline;
+}
+
+h2, li, p {
+    color: rgb(10, 10, 65);
+}
+
+
+
+div {
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    box-sizing: border-box;
+    width: 39.9%;
+    height: 39.9%;
+}
+
+div.steak_border {
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    box-sizing: border-box;
+    width: 36.38%;
+    height: 36.38%;
+}
